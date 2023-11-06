@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 8 Bootstrap</title>
+    <link rel="stylesheet" href="./day8.css">
+    <!--Bootstrap 5 CSS-->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">Suriya</a>
+          <button class="navbar-toggler bg-body-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-usb-mini"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Marketplace</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Facebook</a></li>
+                  <li><a class="dropdown-item" href="#">linkdin</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex" role="search">
+             
+             <button data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn btn-primary"  type="submit">Connect</button>
+            </div>
+            <!-- modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Chala ja yaha se </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Chole jawww bajan
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/4ssASkMqGYk?si=uTF_RC2wdYRepiKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section id="heroArea" class="bg-light"> 
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 d-flex align-items-center order-2 order-md-1">
+                   <div>
+                      <h1 class="maintitle" >Pakka Dogla Hay Tu <br><span class="text-info" > Firoz</span>  </h1>
+                      <p class="heroPara" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, eaque!</p>
+ 
+                     
+                   <div class="d-flex gap-2 justify-content-center justify-content-md-start">
+ 
+                       <div class="p-4 border border-1 rounded-4 border-dark">
+                         240k+<br>
+                         Total sale   
+ 
+                       </div>
+ 
+                       <div class="p-4 border border-1 rounded-4 border-dark">
+                         100k+<br>
+                         Auctions     
+                       </div>
+ 
+                       <div class="p-4 border border-1 rounded-4 border-dark">
+                         240k+<br>
+                         Artists</div>
+                      </div>
+
+
+
+                  </div>
+
+
+
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 order-1 order-md-2">
+
+                    <img  class="img-fluid" src="https://i.pinimg.com/originals/94/ff/74/94ff74a8628ecaacf93dc5570dc02c39.gif">
+                  
+                  </div>
+
+
+                </div>
+
+
+              </div>
+        </section>
+        <section id="trending" class="bg-light text-primary">
+
+          <div class="container" >
+            <div>
+              <h4>Trending Collection</h4>
+              <p>Checkout Our Weekly Updated Trending Collections.</p>
+            </div>
+  
+  
+  
+              <div>
+                <div >
+                  <img class="img-fluid w-50" src="./assets/Frame 24.png" alt="">
+  
+                      <div class="mt-4 d-flex gap-4 bg-body-secondary ">
+                        <img class="w-25" src="./assets/image 1.png" alt="">
+                        <img class="w-25" src="./assets/image 2.png" alt="">
+  
+  
+                        <div class="boxNumber bg-danger rounded-2 justify-content-center align-items-center d-flex boxText"> 1020</div>
+  
+                  </div>
+                </div>
+              </div>
+  
+  
+  
+  
+          </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
